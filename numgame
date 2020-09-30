@@ -1,0 +1,11 @@
+#enter number greater than 100 if it is <100 it wilkl show error otherwise give congrats!
+
+while(1):
+
+    inp=int(input("enter your nummber   :  \n"))
+    if inp>100:
+        print("congratulations!")
+        break
+    else:
+        print("choose another number\n")
+        continue
